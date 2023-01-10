@@ -13,10 +13,9 @@ import com.vaadin.flow.theme.lumo.LumoUtility;
 import org.codemash.runnerz.ui.components.appnav.AppNav;
 import org.codemash.runnerz.ui.components.appnav.AppNavItem;
 import org.codemash.runnerz.ui.views.about.AboutView;
-import org.codemash.runnerz.ui.views.cardlist.CardListView;
-import org.codemash.runnerz.ui.views.gridwithfilters.GridwithFiltersView;
+//import org.codemash.runnerz.ui.views.gridwithfilters.GridwithFiltersView;
 import org.codemash.runnerz.ui.views.helloworld.HelloWorldView;
-import org.codemash.runnerz.ui.views.personform.PersonFormView;
+//import org.codemash.runnerz.ui.views.runform.RunFormView;
 
 /**
  * The main view is a top-level placeholder for other views.
@@ -58,9 +57,8 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(new AppNavItem("About", AboutView.class, "la la-file"));
         nav.addItem(new AppNavItem("Hello World", HelloWorldView.class, "la la-globe"));
-        nav.addItem(new AppNavItem("Card List", CardListView.class, "la la-list"));
-        nav.addItem(new AppNavItem("Person Form", PersonFormView.class, "la la-user"));
-        nav.addItem(new AppNavItem("Grid with Filters", GridwithFiltersView.class, "la la-filter"));
+//        nav.addItem(new AppNavItem("Person Form", RunFormView.class, "la la-user"));
+//        nav.addItem(new AppNavItem("Grid with Filters", GridwithFiltersView.class, "la la-filter"));
 
         return nav;
     }
